@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+
+
+body{
+    overflow-x: hidden;
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-image: url('./imagenes/oldpage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:97%;
+    background-attachment: fixed;
+    font-size: 110%;
+
+}
+
+.caption text-center{
+
+}
+
+/*----inicio*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing:.1rem;
+    background: rgba(44, 6, 6, 0.788)!important;
+}
+
+.navbar-brand img{
+    height: 1rem;
+}
+
+.navbar-nav li{
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .6rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#420744;
+
+}
+
+.home-inner{
+    background-image: url(imagenes/librarie.jpg);
+
+}
+
+.caption {
+    width: 80%;
+    max-width: 80%;
+    height:70%;
+    position: absolute
+    top:38%;
+    2-index: 1;
+    color:black;
+    text-transform: uppercase;
+}
+
+.captionh1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+
+}
+
+.caption h3{
+    font-size: 2rem;
+    text-shadow: .1rem, .1rem, .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+}
+
+#Sara{
+    border-radius: 50%;
+    width:20%;
+    height:20%;
+    margin-left: -2%;
+    margin-top: 5%;
+
+}
+#me{
+    margin-bottom: 10%;
+}
+
+#proyects{
+    margin-top: 10%;
+}
+
+#skills{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#intro{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    color:black;
+    font-size: 122%;
+    opacity: 1.5;
+}
+
+/*iconos*/
+
+#linkedin{
+    width:13%;
+    height:10%;
+    margin-left: 35%;
+    margin-bottom: 15%;
+}
+
+#gmail{
+    width:10%;
+    height:10%;
+    margin-left: 5%;
+    margin-bottom: 15%;
+}
+
+
+.html{
+    width:14%;
+    height:30%;
+    margin-left: 29%;
+}
+
+.js{
+    width:25.3%;
+    height:25.3%;
+    margin-right: 5%;
+    margin-left: -8%;
+}
+
+.css{
+    width:10%;
+    height:10%;
+    margin-left: -10%;
+}
+
+#icons{
+    width: 15%;
+    height: 20%;
+    margin-left: 13%;
+    margin-top: 3%;
+}
+
+#js{
+    width: 10%;
+    height: 20%;
+    margin-left: 17%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+#materi{
+    width: 13%;
+    height: 18%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+#node{
+    width: 15%;
+    height: 25%;
+    margin-left: 14%;
+    margin-top: 3%;
+}
+
+#github{
+    width:15%;
+    height:15%;
+    margin-left: 5%;
+
+}
+
+#github2{
+    width: 22%;
+    height: 34%;
+    margin-left: 16%;
+    margin-top: 4%;
+}
+
+#web{
+    width:15%;
+    height:15%;
+    margin-left: 1%;
+}
+
+
+#dl{
+    color: aliceblue;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+/*fin-iconos*/
+
+
+#sarafin{
+    border-radius: 50%;
+    width:30%;
+    height:35%;
+    margin-left: 38%;
+    margin-top: 8%;
+
+}
+
+#lomo{
+    transform: rotate(-360deg);
+    width: 125%;   
+}
+
+#end{
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
