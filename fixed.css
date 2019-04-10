@@ -40,7 +40,7 @@ margin-right: 0px!important;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: rgba(254, 254, 255, 0.952);
+  background-color:transparent;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   will-change: transform;
