@@ -11,12 +11,9 @@ body{
     background-attachment: fixed;
     font-size: 110%;
     text-align: center;
-
 }
 
-
-
-.caption text-center{
+.caption-text-center{
 
 }
 
@@ -44,12 +41,7 @@ body{
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover{
-    color:#420744;
-
-}
-
-.home-inner{
-    background-image: url(imagenes/librarie.jpg);
+    color:#971f17;
 
 }
 
@@ -86,23 +78,24 @@ body{
     font-size: 1.1re;m;
 }
 
+
 #Sara{
     border-radius: 50%;
     width:25%;
     height:20%;
     margin-left: -2%;
-    margin-top: 5%;
+    margin-top: 8%;
 
 }
 #me{
-    margin-top: 15%;
+    margin-top: 10%;
     margin-bottom: 10%;
     width: 85%;
     margin-left:7%;
 }
 
 #proyects{
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 #skills{
@@ -113,6 +106,28 @@ body{
 }
 
 #intro{
+    text-align: center;
+    margin-left: 11%;
+    margin-right: 10%;
+    margin-top: 2%;
+    color: black;
+    font-size: 150%;
+    opacity: 1.5;
+
+}
+
+#introskill{
+    text-align: center;
+    margin-left: 11%;
+    margin-right: 10%;
+    margin-top: 8%;
+    color: black;
+    font-size: 150%;
+    opacity: 1.5;
+
+}
+
+#introcontact{
     text-align: center;
     margin-left: 11%;
     margin-right: 10%;
@@ -159,8 +174,12 @@ body{
     margin-left: -10%;
 }
 
+#laboratoria{
+    margin-left:5%;
+    
+}
 #allicons{
-    margin-left:-4%;
+    margin-left:-5%;
 }
 
 #icons{
@@ -229,8 +248,8 @@ body{
 
 #sarafin{
     border-radius: 50%;
-    width:30%;
-    height:35%;
+    width: 25%;
+    height: 40%;
     margin-left: 0%;
     margin-top: 8%;
     
@@ -239,7 +258,8 @@ body{
 
 #lomo{
     transform: rotate(-360deg);
-    width: 125%;   
+    width: 125%; 
+    margin-top: 0%;  
 }
 
 #end{
@@ -289,268 +309,79 @@ body{
 }
 
 
+
+
 @media only screen and (max-width: 600px) {
     @import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
 
+    #body{
+        background-image:
+    }
 
-body{
-    overflow-x: hidden;
-    font-family: 'ZCOOL XiaoWei', serif;
-    background-image: url('./imagenes/oldpage.jpg');
-    background-repeat: no-repeat;
-    background-positon:center;
-    background-size:100%;
-    background-attachment: fixed;
-    font-size: 125%;
-    width: 90%;
 
-}
+    #lomo {
+        transform: rotate(-360deg);
+        width: 263%;
+    }
 
-.caption text-center{
+    #intro{
+    width: 202%;
+    margin-top: 10%;
+    }
 
-}
-
-/*----inicio*/
-.navbar{
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: .9rem;
-    letter-spacing:.1rem;
-    background: rgba(44, 6, 6, 0.788)!important;
-}
-
-.navbar-brand img{
-    height: 1rem;
-}
-
-.navbar-nav li{
-    padding-right: .7rem;
-}
-
-.navbar-dark .navbar-nav .nav-link{
-    color: white;
-    padding-top: .6rem;
-}
-
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover{
-    color:#420744;
-
-}
-
-.home-inner{
-    background-image: url(imagenes/librarie.jpg);
-
-}
-
-.caption {
-    width: 80%;
-    max-width: 80%;
-    height:70%;
-    position: absolute
-    top:38%;
-    2-index: 1;
-    color:black;
-    text-transform: uppercase;
-}
-
-.captionh1 {
-    font-size: 3.8rem;
-    font-weight: 700;
-    letter-spacing: .3rem;
-    text-shadow: .1rem .1rem .8rem black;
-    padding-bottom: 1rem;
-
-}
-
-.caption h3{
-    font-size: 2rem;
-    text-shadow: .1rem, .1rem, .5rem black;
-    padding-bottom: 1.6rem;
-}
-
-.btn-lg{
-    border-width: medium;
-    border-radius: 0;
-    padding: .6rem 1.3rem;
-    font-size: 1.1rem;
-}
-
-#Sara{
+    #Sara{
     border-radius: 50%;
-    width: 35%;
+    width: 72%;
     height: 20%;
-    margin-left: 6%;
-    margin-top: 5%;
+    margin-left: 88%;
+    margin-top: 17%;
+    }
 
-}
-#me{
-    margin-bottom: 10%;
-    width: 110%;
-    margin-left: 35%;
-    position:relative;
-    padding=0rem;
-}
+        
+    #laboratoria{
+        margin-left:60%;
+    }
 
-#projects{
-    margin-top: 15%;
-    margin-left: 16%
-}
+    #allicons {
+        width: 225%;
+        padding-right: 12%;
+        padding-left: 0%;
+        margin-right: auto;
+    }
 
-#skills{
-    margin-bottom: 20%;
-    width: 110%;
-    margin-left: 33%;
-    position:relative;
-    padding=0rem;
-}
+    #sarafin {
+        border-radius: 50%;
+        width: 50%;
+        height: 40%;
+        margin-left: 80%;
+        margin-top: 20%;
+    }
 
-#contact{
-    margin-bottom: 10%;
-    width: 110%;
-    margin-left: 33%;
-    position:relative;
-    padding=0rem;
-}
-
-#intro{
-    text-align: center;
-    margin-left: 0%;
-    margin-right: 3%;
-    margin-top: 3%;
-    color:black;
-    font-size: 125%;
-    opacity: 1.5;
-    width: 110%;
-}
-
-/*iconos*/
-
-#linkedin{
-    width:13%;
-    height:10%;
-    margin-left: 5%;
-    margin-bottom: 15%;
-}
-
-#gmail{
-    width:10%;
-    height:10%;
-    margin-left: 5%;
-    margin-bottom: 15%;
-}
-
-
-.html{
-    width:14%;
-    height:30%;
-    margin-left: 29%;
-}
-
-.js{
-    width:25.3%;
-    height:25.3%;
-    margin-right: 5%;
-    margin-left: -8%;
-}
-
-.css{
-    width:10%;
-    height:10%;
-    margin-left: -10%;
-}
-
-#allicons{
-    margin-left: 1%;
-    height: 90%;
-    width: 150%;
-}
-
-#icons{
-    width: 15%;
-    height: 20%;
-    margin-left: 13%;
-    margin-top: 3%;
-}
-
-#js{
-    width: 10%;
-    height: 20%;
-    margin-left: 17%;
-    margin-right: 2%;
-    margin-top: 3%;
-}
-
-#materi{
-    width: 13%;
-    height: 18%;
-    margin-left: 15%;
-    margin-top: 3%;
-}
-
-#node{
-    width: 15%;
-    height: 25%;
-    margin-left: 14%;
-    margin-top: 3%;
-}
-
-#github{
-    width:15%;
-    height:15%;
-    margin-left: 5%;
-
-}
-
-#github2{
-    width: 22%;
-    height: 34%;
-    margin-left: 16%;
-    margin-top: 4%;
-}
-
-#web{
-    width:15%;
-    height:15%;
-    margin-left: 1%;
-}
-
-
-#dl{
-    color: aliceblue;
-    margin-right: 15%;
-    margin-left: 15%;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 20%;
-
-}
-
-/*fin-iconos*/
-
-
-#sarafin{
-    border-radius: 45%;
-    width: 50%;
-    height: 35%;
-    margin-left: 5%;
-    margin-top: 30%;
-}
+    #linkedin{
+        width: 39%;
+        height: 10%;
+        margin-left: 27%;
+        margin-right: 20%;
+        margin-bottom: 15%;
+    }
     
+    #gmail{
+        width: 17%;
+    height: 10%;
+    margin-right: -74%;
+    margin-left: -8%;
+    margin-bottom: 15%;
+    }
 
+    #end {
+        margin-left: 15%;
+        margin-top: 15%;
+        margin-right: 11%;
+        margin-bottom: 9%;
+        }
 
+    body{
+        background-size:150%;
+    }
 
-#lomo{
-    transform: rotate(-360deg);
-    width: 225%;   
 }
-
-#end{
-    margin-left: 30%;
-    margin-top: -17%;
-    margin-bottom: 100%;
-}
-}
-
-}
-

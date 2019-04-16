@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
     <link rel="stylesheet" type="text/css" media="screen" href="fixed.css">
     <link rel="stylesheet" type="text/css" media="screen" href="flipcard.css">
-   
+    <link rel="stylesheet" type="text/css" href="particles.css">
 
 </head>
 <body data-spy="scroll" data-target="#navbarResponsive">
@@ -22,11 +22,10 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
         
-
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#particles-js">Home</a>
                         </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#me">About-me</a>
@@ -45,22 +44,22 @@
             </nav>
         
         <!--inicio-->
-        <div id="home" class="landing">
-            <div class="home-wrap">
-                <div class="home-inner">
+        <div id="particles-js"></div>
+            <div id="home" class="landing">
+                        <div class="home-wrap">
+                            <div class="home-inner">
+                                </div>
+                        </div>
                 </div>
-            </div>
-        </div>
         <div id="home" class="caption text-center">
             <img id="lomo" src="./imagenes/lomo.jpg"></image>
         </div>
-
         <!---sobre mi-->
         <div id="me" class="offset">
             <div class="col-12 narrow text-center">
                 <image id="Sara" src="./imagenes/43817347_165517377718279_1186618294874396633_n.jpg"></image>
                 <p id="intro"> Hola, mi nombre es Kerlismar Sarays Guarguana Yance pero TODOS me llaman Sara. Soy de profesión Lic. en Bibliotecología y es por mi profesión que me considero una persona curiosa y siempre en buscar de aprender cosas nuevas.Recientemente culminé el Bootcamp egresando como Front-end Developer de la 7ma Generación de Laboratoria en Santiago de Chile.</p>
-                <a id="laboratoria" target="_blank" href="https://www.laboratoria.la/"><img src="imagenes/laboratoria.JPG"></a>
+                <a id="laboratoria" target="_blank" href="https://www.laboratoria.la/"><img src="imagenes/laboratoria.JPG"></image></a>
                 <p id="intro">Soy una persona muy curiosa, me gusta leer, me atraen mucho los idiomas por lo que hablo Inglés y estoy aprendiendo Francés utilizando dos de mis hobbies favoritos que son escuchar música y ver peliculas. En los ultimos tiempos estoy disfrutando mucho ir de Camping y hacer trekking.</p>
                 </div>
             </div> 
@@ -71,15 +70,14 @@
 
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                        <img src="./imagenes/cifrador.PNG" alt="Avatar" style="width:410px;height:380px;border-radius: 8%;">
+                        <img id="card" src="./imagenes/cifrador.PNG" alt="Avatar" style="width:410px;height:380px;border-radius: 8%;">
                         </div>
                         <div class="flip-card-back">
                         <h1>Código César</h1> 
                         <p id="intro">Codifica y decodifica mensajes en base a la cantidad de espacios que desee el usuario.</p>
                         <p>  Clickea y podras revisar el proyecto:</p>
-                        <a target="_blank" href="https://github.com/Saaras225/scl-2018-11-bc-core-cipher"><img id="github" src="imagenes/github}.png"></a>
-                        <a href="https://www.laboratoria.la/"><img id="web" src="imagenes/web.png"></a>
-                                
+                        <a target="_blank" href="https://github.com/Saaras225/scl-2018-11-bc-core-cipher"><img id="github" src="imagenes/github}.png"></image></a>
+                        <a target="_blank" href="https://saaras225.github.io/scl-2018-11-bc-core-cipher/src/index.html"><img id="web" src="imagenes/web.png"></image></a>       
                         </div>
                         </div>
                     </div>
@@ -87,7 +85,7 @@
                 <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                            <img src="./imagenes/datalovers.PNG" alt="Avatar" style="width:410px;height:380px;border-radius: 8%;">
+                            <img id="card" src="./imagenes/datalovers.PNG" alt="Avatar" style="width:410px;height:380px;border-radius: 8%;">
                             </div>
                             <div class="flip-card-back">
                             <h1>Data Lovers</h1> 
@@ -102,7 +100,7 @@
                 <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                            <img src="./imagenes/FEMFLIX.PNG" alt="Avatar" style="width:410px;height:380px;border-radius: 8%;">
+                            <img id="card" src="./imagenes/FEMFLIX.PNG" alt="Avatar" style="width:410px;height:380px;border-radius: 8%;">
                             </div>
                             <div class="flip-card-back">
                             <h1>FEMFLIX</h1> 
@@ -117,7 +115,7 @@
                 <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                            <img src="./imagenes/sabores.PNG" alt="Avatar1" style="width:410px;height:380px;border-radius: 8%;">
+                            <img id="card" src="./imagenes/sabores.PNG" alt="Avatar1" style="width:410px;height:380px;border-radius: 8%;">
                             </div>
                             <div class="flip-card-back">
                             <h1>Sabores</h1> 
@@ -135,7 +133,7 @@
         <div id="skills" class="offset">
                 <div class="row">
                     <div class="col-sm-12">
-                    <p id="intro"> Dentro de mis skills en cuanto a mis Habilidades blandas, puedo decir que soy una persona comunicativa y me gusta ser democrática en cuanto al trabajo en grupo; siempre estoy dispuesta a ayudar a mis compañeros. Dentro de la parte de desarrollo, he trabajado con distintas herramientas para desarrollo web dentro de las cuales se encuentran:</p>
+                    <p id="introskill"> Dentro de mis skills en cuanto a mis Habilidades blandas, puedo decir que soy una persona comunicativa y me gusta ser democrática en cuanto al trabajo en grupo; siempre estoy dispuesta a ayudar a mis compañeros. Dentro de la parte de desarrollo, he trabajado con distintas herramientas para desarrollo web dentro de las cuales se encuentran:</p>
                     <div id="allicons" class="container">
                         <svg id="icons" viewBox="0 0 128 128">
                                 <path fill="#E44D26" d="M27.854 116.354l-8.043-90.211h88.378l-8.051 90.197-36.192 10.033z"></path><path fill="#F16529" d="M64 118.704l29.244-8.108 6.881-77.076h-36.125z"></path><path fill="#EBEBEB" d="M64 66.978h-14.641l-1.01-11.331h15.651v-11.064h-27.743l.264 2.969 2.72 30.489h24.759zM64 95.711l-.049.013-12.321-3.328-.788-8.823h-11.107l1.55 17.372 22.664 6.292.051-.015z"></path><path d="M28.034 1.627h5.622v5.556h5.144v-5.556h5.623v16.822h-5.623v-5.633h-5.143v5.633h-5.623v-16.822zM51.816 7.206h-4.95v-5.579h15.525v5.579h-4.952v11.243h-5.623v-11.243zM64.855 1.627h5.862l3.607 5.911 3.603-5.911h5.865v16.822h-5.601v-8.338l-3.867 5.981h-.098l-3.87-5.981v8.338h-5.502v-16.822zM86.591 1.627h5.624v11.262h7.907v5.561h-13.531v-16.823z"></path><path fill="#fff" d="M63.962 66.978v11.063h13.624l-1.284 14.349-12.34 3.331v11.51l22.682-6.286.166-1.87 2.6-29.127.27-2.97h-2.982zM63.962 44.583v11.064h26.725l.221-2.487.505-5.608.265-2.969z"></path>
@@ -170,7 +168,7 @@
             <div class="row">
                 <div class="col-sm-12">
                 <image id="sarafin" src="./imagenes/sara.jpg"></image>
-                <p id="intro"> Si quieres contactarme puedes hacerlo mediante.</p>
+                <p id="introcontact"> Si quieres contactarme puedes hacerlo mediante.</p>
                 <a target="_blank" href="ingresar linkedin"><img id="linkedin" src="imagenes/linkedin-logo.png"></a>
                 <a target="_blank" href="mailto:sarayance@gmail.com"><img id="gmail" src="imagenes/gmail.png"></img></a>
             </div>
@@ -181,6 +179,8 @@
             <image id="end" src="./imagenes/end.png"></image>
             </div>
     </div>
+<script type="text/javascript" src="js/particles.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

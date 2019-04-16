@@ -11,25 +11,27 @@ margin-right: 0px!important;
 
 /*--- Fix for Fixed Navbar jumping on scroll --*/
 .fixed-top  {
- -webkit-backface-visibility: hidden;
+-webkit-backface-visibility: hidden;
 }
 
 /*--- Fixed Landing Page Section --*/
 .landing {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: table;
   z-index: -1;
 }
+
 .home-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 120%;
 }
+
 .home-inner {
   position: fixed;
   display: table;
@@ -51,6 +53,7 @@ margin-right: 0px!important;
   position: relative;
   width: 100%;
 }
+
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -60,6 +63,7 @@ margin-right: 0px!important;
   height: 100%;
   z-index: -999!important;
 }
+
 .fixed {
   position: fixed;
   display: block;
