@@ -143,7 +143,7 @@ body{
 #linkedin{
     width:13%;
     height:10%;
-    margin-left: 0%;
+    margin-left: -3%;
     margin-bottom: 15%;
 }
 
@@ -154,6 +154,14 @@ body{
     margin-bottom: 15%;
 }
 
+#cv{
+    width: 13%;
+    height: 15%;
+    margin-left: 3%;
+    margin-right: -7%;
+    margin-bottom: 15%;
+    margin-top: 2%;
+}
 
 .html{
     width:14%;
@@ -179,7 +187,7 @@ body{
     
 }
 #allicons{
-    margin-left:-5%;
+    margin-left:8%;
 }
 
 #icons{
@@ -248,8 +256,8 @@ body{
 
 #sarafin{
     border-radius: 50%;
-    width: 25%;
-    height: 40%;
+    width: 27%;
+    height: 42%;
     margin-left: 0%;
     margin-top: 8%;
     
