@@ -12,3 +12,10 @@ body{
     height:100%;
     width: 100%;
 }
+
+#particles-js1{
+    background-image:url('./imagenes/sara.jpg');
+    background-size: cover;
+    height:100%;
+    width: 100%;
+}
