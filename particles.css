@@ -12,3 +12,16 @@ body{
     height:100%;
     width: 100%;
 }
+
+
+@media only screen and (max-width: 600px) {
+    @import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+
+    
+#particles-js{
+    background-image:url('./imagenes/sara.jpg');
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    margin-top: 25%;
+}
