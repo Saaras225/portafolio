@@ -206,6 +206,12 @@ body{
     margin:5%;
 }
 
+#materi{
+    width: 12%;
+    height: 13%;
+
+}
+
 /*contactame*/
 
 #sarafin {
@@ -256,6 +262,7 @@ body{
 
 /*FIN portafolio*/
 
+/*prueba si esto funciona*/
 
 /*button styles*/
 
@@ -298,3 +305,8 @@ body{
 
 
 @media only screen and (max-width: 600px) {
+<<<<<<< HEAD
+   
+=======
+   
+>>>>>>> ff1a3c37235189a78bacbdf12d45c5e2f7d4fb18
