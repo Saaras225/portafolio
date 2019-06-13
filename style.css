@@ -229,6 +229,10 @@ body{
     font-size: 17px;
     font-family: monospace;
     opacity: 1.5;
+    background-color: rgba(95, 75, 105, 0.664);
+    width: 38%;
+    margin-left: 31%;
+    border-radius: 3%;
 }
 
 #contactame{
