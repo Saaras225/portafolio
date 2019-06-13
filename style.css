@@ -21,10 +21,10 @@ body{
 .navbar{
     text-transform: uppercase;
     font-weight: 700;
-    font-size: .9rem;
+    font-size: 1.5rem;
     letter-spacing:.1rem;
     background:black!important;
-    height: 10%;
+    height: 15%;
 }
 
 .navbar-brand img{
@@ -32,7 +32,8 @@ body{
 }
 
 .navbar-nav li{
-    padding-right: .7rem;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -83,13 +84,7 @@ body{
     width: 15%;
 }
 
-#Sara{
-    border-radius: 50%;
-    width: 28%;
-    height: 20%;
-    margin-left: -4%;
-    margin-top: 15%;
-}
+/*quien soy*/
 
 #me{
     margin-top: 1%;
@@ -98,13 +93,83 @@ body{
     margin-left:-15%;
 }
 
+#Sara{
+    border-radius: 50%;
+    width: 28%;
+    height: 20%;
+    margin-left: -4%;
+    margin-top: 15%;
+}
+
+#intro{
+    font-family: monospace;
+    text-align: center;
+    margin-left: 65%;
+    margin-right: 10%;
+    margin-top: -27%;
+    margin-bottom: -4%;
+    color: rgb(247, 242, 242);
+    background-color: rgba(95, 75, 105, 0.664);
+    font-size: 122%;
+    opacity: 1.5;
+    width: 65%;
+    border-radius: 4%;
+    font-size: 25px;
+    padding: inherit;
+}
+
+#laboratoria{
+    margin-left: 83%;
+    margin-top: -10%;
+    margin-bottom: -26%;
+    width: 26%;
+}
+
+#intro2{
+    font-family: monospace;
+    text-align: center;
+    margin-left: 65%;
+    margin-right: 10%;
+    margin-top: 12%;
+    color: rgb(247, 242, 242);
+    background-color: rgba(95, 75, 105, 0.664);
+    font-size: 122%;
+    opacity: 1.5;
+    width: 65%;
+    border-radius: 4%;
+    font-size: 25px;
+    padding: inherit;
+}
+
+/*proyectos*/
+
 #projects{
-    width: 80%;
+    width: 65%;
     margin-top: 10%;
     margin-bottom: 10%;
-    margin-left: 10%;
-    padding-top: 8%;
+    margin-left: 20%;
+    padding-top: 10%;
 }
+
+/*carousel*/
+.carousel-caption{
+    background-color: rgba(95, 75, 105, 0.664);
+    width: 77%;
+    height: 40%;
+    margin-left: -3%;
+    margin-bottom: 2%;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+.carousel-caption p{
+        margin-top: 0%;
+        margin-bottom: 1%;
+}
+
+/*skills*/
 
 #skills{
     margin-top: 10%;
@@ -112,33 +177,6 @@ body{
     margin-right: 6%;
     margin-bottom: 10%;
 }
-
-#intro{
-    text-align: center;
-    margin-left: 65%;
-    margin-right: 10%;
-    margin-top: -33%;
-    color: rgb(247, 242, 242);
-    background-color: rgba(95, 75, 105, 0.664);
-    font-size: 122%;
-    opacity: 1.0;
-    width: 60%;
-    border-radius: 4%;
-}
-
-#intro2{
-    text-align: center;
-    margin-left: 65%;
-    margin-right: 10%;
-    margin-top: 2%;
-    color: rgb(247, 242, 242);
-    background-color: rgba(95, 75, 105, 0.664);
-    font-size: 122%;
-    opacity: 1.5;
-    width: 60%;
-    border-radius: 4%;
-}
-
 
 #introskill{
     text-align: center;
@@ -150,7 +188,29 @@ body{
     font-size: 122%;
     opacity: 1.5;
     border-radius: 4%;
+}
 
+#allicons{
+    margin-left: 11%;
+    height: 45%;
+    background-color: rgba(95, 75, 105, 0.664);
+    border-radius: 3%;
+    width: 79%;
+    height: 63%;
+}
+
+.icons{
+    margin:5%;
+}
+
+/*contactame*/
+
+#sarafin {
+    border-radius: 50%;
+    width: 30%;
+    height: 45%;
+    margin-left: 0%;
+    margin-top: 5%;
 }
 
 #introcontact{
@@ -159,11 +219,17 @@ body{
     color: rgb(247, 242, 242);
     font-size: 150%;
     opacity: 1.5;
-
 }
 
-
-/*iconos*/
+#contactame{
+    background-color: rgba(95, 75, 105, 0.664);
+    width: 35%;
+    height: 15%;
+    margin-left: 32%;
+    border-radius: 1%;
+    margin-top: 3%;
+    padding-bottom: 8%;
+}
 
 #linkedin{
     margin-left: -3%;
@@ -184,16 +250,9 @@ body{
     margin-top: 0%;
 }
 
-#contactame{
-    background-color: rgba(95, 75, 105, 0.664);
-    width: 35%;
-    height: 15%;
-    margin-left: 32%;
-    border-radius: 1%;
-    margin-top: 3%;
-    padding-bottom: 8%;
+/*FIN portafolio*/
 
-}
+/*prueba si esto funciona*/
 
 .html{
     width:14%;
@@ -214,22 +273,9 @@ body{
     margin-left: -10%;
 }
 
-#laboratoria{
-    margin-left: 83%;
-}
 
-#allicons{
-    margin-left: 11%;
-    height: 45%;
-    background-color: rgba(95, 75, 105, 0.664);
-    border-radius: 3%;
-    width: 79%;
-    height: 63%;
-}
 
-.icons{
-    margin:5%;
-}
+
 
 
 
@@ -265,13 +311,7 @@ body{
 /*fin-iconos*/
 
 
-#sarafin {
-    border-radius: 50%;
-    width: 30%;
-    height: 45%;
-    margin-left: 0%;
-    margin-top: 5%;
-}
+
 
 #lomo{
     transform: rotate(-360deg);
@@ -325,20 +365,11 @@ body{
     transition: 0s
 }
 
-/*carousel*/
-.carousel-caption{
-    background-color: rgba(95, 75, 105, 0.664);
-    width: 100%;
-    height: 48%;
-    margin-left: -15%;
-    margin-bottom: -2%;
-}
-
-.carousel-caption p{
-        margin-top: 0%;
-        margin-bottom: 1%;
-}
 
 
 @media only screen and (max-width: 600px) {
+<<<<<<< HEAD
    
+=======
+   
+>>>>>>> ff1a3c37235189a78bacbdf12d45c5e2f7d4fb18
