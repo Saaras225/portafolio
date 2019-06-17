@@ -98,7 +98,7 @@ body{
     width: 28%;
     height: 20%;
     margin-left: -10%;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 #intro{
@@ -206,6 +206,12 @@ body{
     margin:5%;
 }
 
+#materi{
+    width: 12%;
+    height: 13%;
+
+}
+
 /*contactame*/
 
 #sarafin {
@@ -213,7 +219,7 @@ body{
     width: 38%;
     height: 45%;
     margin-left: 0%;
-    margin-top: 7%;
+    margin-top: 8%;
 }
 
 #introcontact{
@@ -223,6 +229,10 @@ body{
     font-size: 17px;
     font-family: monospace;
     opacity: 1.5;
+    background-color: rgba(95, 75, 105, 0.664);
+    width: 38%;
+    margin-left: 31%;
+    border-radius: 3%;
 }
 
 #contactame{
@@ -256,6 +266,7 @@ body{
 
 /*FIN portafolio*/
 
+/*prueba si esto funciona*/
 
 /*button styles*/
 
@@ -298,3 +309,8 @@ body{
 
 
 @media only screen and (max-width: 600px) {
+<<<<<<< HEAD
+   
+=======
+   
+>>>>>>> ff1a3c37235189a78bacbdf12d45c5e2f7d4fb18
